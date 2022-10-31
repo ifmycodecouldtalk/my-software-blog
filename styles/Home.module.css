@@ -127,3 +127,10 @@
     filter: invert(1);
   }
 }
+
+.myPhoto {
+  border-radius: 100%;
+}
+.myPhotoDiv {
+  text-align: center;
+}
