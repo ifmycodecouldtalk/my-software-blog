@@ -42,7 +42,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .title,
@@ -54,6 +54,12 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+}
+.wordsWidth {
+  width: 75%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .code {
@@ -133,4 +139,18 @@
 }
 .myPhotoDiv {
   text-align: center;
+}
+.blogCap {
+  font-size: 2.5rem;
+}
+.myLinks {
+  line-height: 1.5;
+  margin: 4rem 0;
+  color: #93adff;
+}
+.myLinks:hover {
+  text-decoration: underline;
+}
+.date {
+  font-size: 1rem;
 }
