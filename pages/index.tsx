@@ -7,12 +7,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Beyond 0's and 1's</title>
+        <title>Beyond 0&apos;s and 1&apos;s</title>
         <meta name="description" content="my first software development blog" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.title}>
-        <h1 className={styles.header}>Beyond 0's and 1's</h1>
+        <h1 className={styles.header}>Beyond 0&apos;s and 1&apos;s</h1>
       </div>
       <div className={styles.myPhotoDiv}>
         <Image
@@ -26,10 +26,14 @@ export default function Home() {
       <div className={styles.wordsWidth}>
         <p className={styles.description}>
           Hello! My name is <b>Chris Martinez</b> and this is my blog for
-          aspiring software developers. I've spent years studying software
+          aspiring software developers. I&apos;ve spent years studying software
           development, specifically JavaScript frameworks and other web tools.
           Follow me on{" "}
-          <a href="https://twitter.com/mycodecantalk" target="_blank">
+          <a
+            href="https://twitter.com/mycodecantalk"
+            target="_blank"
+            rel="noreferrer"
+          >
             Twitter
           </a>{" "}
           to stay up-to-date on my latest projects, or if you have any
