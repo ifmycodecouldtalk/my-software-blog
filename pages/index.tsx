@@ -43,13 +43,19 @@ export default function Home() {
         </p>
         <p className={styles.blogCap}>
           <b>Blog</b>
-          <br />
-          <br />
-          <Link href="/posts/my-first-post" className={styles.myLinks}>
-            My First Post!
-          </Link>
-          <p className={styles.date}>October 31st, 2022</p>
         </p>
+        <br />
+        <br />
+        <Link href="/posts/direction-post" className={styles.myLinks}>
+          Direction of My Blog
+        </Link>
+        <p className={styles.date}>November 11th, 2022</p>
+        <br />
+        <br />
+        <Link href="/posts/my-first-post" className={styles.myLinks}>
+          My First Post!
+        </Link>
+        <p className={styles.date}>October 31st, 2022</p>
       </div>
     </div>
   );

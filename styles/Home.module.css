@@ -147,6 +147,7 @@
   line-height: 1.5;
   margin: 4rem 0;
   color: #93adff;
+  font-size: 30px;
 }
 .myLinks:hover {
   text-decoration: underline;
