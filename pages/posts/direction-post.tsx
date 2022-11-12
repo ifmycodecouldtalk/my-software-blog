@@ -28,14 +28,15 @@ export default function DirectionPost() {
 
         <p className={styles.description}>
           Balancing life and work can be a challenge for a lot of people,
-          including myself. I want to use this blog as a way to ensure that I'm
-          mindful of my tasks and to remind myself of what I need to achieve as
-          a web developer. I want to use this platform to teach others common
-          web development concepts while also reinforcing my knowledge. This
-          blog will also get me used to the idea of having to update and
-          maintain a website. This will be a short post, it's sort of like a
-          mission statement that I will use to remind myself of what I want to
-          do with this blog. Stay tuned for more updates and future tutorials.
+          including myself. I want to use this blog as a way to ensure that
+          I&apos;m mindful of my tasks and to remind myself of what I need to
+          achieve as a web developer. I want to use this platform to teach
+          others common web development concepts while also reinforcing my
+          knowledge. This blog will also get me used to the idea of having to
+          update and maintain a website. This will be a short post, it&apos;s
+          sort of like a mission statement that I will use to remind myself of
+          what I want to do with this blog. Stay tuned for more updates and
+          future tutorials.
         </p>
 
         <Link href="/" className={styles.backHome}>
